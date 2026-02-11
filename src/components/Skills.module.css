@@ -1,0 +1,134 @@
+.skills {
+  padding: 100px 20px;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 4rem;
+  background: linear-gradient(45deg, #667eea, #764ba2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.skillCard {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.skillCard:hover {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+  border-color: rgba(102, 126, 234, 0.3);
+}
+
+.skillContent {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.skillName {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #e2e8f0;
+  margin: 0;
+  position: relative;
+}
+
+.skillGlow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(circle, rgba(102, 126, 234, 0.2) 0%, transparent 70%);
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.skillCard:hover .skillGlow {
+  opacity: 1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .skills {
+    padding: 60px 20px;
+  }
+
+  .title {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .skillCard {
+    padding: 1.5rem;
+    min-height: 120px; /* Ensure consistent card heights */
+  }
+
+  .skillName {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills {
+    padding: 40px 15px;
+  }
+
+  .title {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1rem;
+  }
+
+  .skillCard {
+    padding: 1.2rem;
+    min-height: 100px; /* Touch-friendly card size */
+  }
+
+  .skillName {
+    font-size: 1.1rem;
+  }
+
+  /* Ensure cards are touch-friendly */
+  .skillCard {
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(56, 239, 125, 0.1);
+  }
+}
