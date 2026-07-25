@@ -36,10 +36,10 @@ const TeachingGallery = () => {
     { src: '/images/teach4.jpeg' },
     { src: '/images/teach5.jpg' },
     { src: '/images/teach6.jpg' },
-    { src: '/images/teach7.jpg' },
-    { src: '/images/teach8.jpg' },
-    { src: '/images/teach9.jpg' },
-    { src: '/images/teach10.jpg' },
+    { src: '/images/teach7.jpeg' },
+    { src: '/images/teach8.jpeg' },
+    { src: '/images/teach9.jpeg' },
+    { src: '/images/teach10.jpeg' },
   ];
 
   const openModal = (image) => {
