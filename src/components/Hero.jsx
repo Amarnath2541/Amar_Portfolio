@@ -111,7 +111,7 @@ const Hero = () => {
           <motion.div className={styles.profileContainer} variants={itemVariants}>
             <motion.div className={styles.profileImageContainer} variants={itemVariants}>
               <img
-                src="/images/profile.jpeg"
+                src="/images/profile.png"
                 alt="Nambhi Amarnath - Profile Photo"
                 className={styles.profileImage}
               />
