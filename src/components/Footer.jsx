@@ -157,7 +157,7 @@ const Footer = () => {
               </span>
             </motion.a>
             <div className={styles.contactInfo}>
-              <p>📍 Chennai, India</p>
+              <p>📍 Itpl,Whitefield,Bengaluru, India</p>
               <p>💼 Open to opportunities</p>
             </div>
           </motion.div>
