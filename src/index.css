@@ -219,6 +219,36 @@ p {
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
 }
 
+.top-marquee {
+  background: linear-gradient(90deg, rgba(56, 239, 125, 0.2), rgba(102, 126, 234, 0.25));
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  z-index: 10;
+}
+
+.marquee-track {
+  display: inline-flex;
+  align-items: center;
+  gap: 2rem;
+  width: max-content;
+  padding: 10px 0;
+  animation: marquee 18s linear infinite;
+}
+
+.marquee-track span {
+  color: #e2e8f0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
 /* Mobile Global Styles */
 @media (max-width: 768px) {
   /* Prevent horizontal scrolling */
