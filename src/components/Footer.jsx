@@ -35,26 +35,26 @@ const Footer = () => {
     {
       name: 'GitHub',
       icon: <FaGithub />,
-      url: 'https://github.com/nambhi-amarnath',
+      url: 'https://github.com/Amarnath77948',
       color: '#333'
     },
     {
       name: 'LinkedIn',
       icon: <FaLinkedin />,
-      url: 'https://linkedin.com/in/nambhi-amarnath',
+      url: 'https://www.linkedin.com/in/nambhi-amarnath-4bbb32236/',
       color: '#0077b5'
     },
     {
       name: 'HackerRank',
       icon: <FaHackerrank />,
-      url: 'https://hackerrank.com/profile/nambhi_amarnath',
+      url: 'https://www.hackerrank.com/profile/nambiamar1234',
       color: '#00ea64'
     },
 
     {
       name: 'LeetCode',
       icon: <FaCode />,
-      url: 'https://leetcode.com/nambhi_amarnath',
+      url: 'https://leetcode.com/u/20at1a0507/',
       color: '#ffa116'
     }
   ];
