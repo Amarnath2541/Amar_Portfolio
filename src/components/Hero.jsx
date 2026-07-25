@@ -107,10 +107,7 @@ const Hero = () => {
         initial="hidden"
         animate="visible"
       >
-        <marquee style="border:2px solid white; border-radius:2px; padding:8px 0; color:white; background:linear-gradient(90deg, rgba(56,239,125,0.2), rgba(102,126,234,0.25));">
-  📞 Call me directly for 1:1 sessions in C, Java, Python, DSA, and Web Development. <strong>7794822802</strong> &nbsp;&nbsp;|&nbsp;&nbsp;
-  📢 Call me directly if you're interested in hiring me for your company.
-</marquee>
+        <marquee> Call me directly for 1:1 sessions in C, Java, Python, DSA, and Web Development. 📞 7794822802 --- Call me directly if you're interested in hiring me for your company.</marquee>
         <div className={styles.content}>
           <motion.div className={styles.profileContainer} variants={itemVariants}>
             <motion.div className={styles.profileImageContainer} variants={itemVariants}>
