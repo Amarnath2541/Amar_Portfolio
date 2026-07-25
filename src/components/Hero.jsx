@@ -107,8 +107,8 @@ const Hero = () => {
         initial="hidden"
         animate="visible"
       >
+        <marquee> Call me directly for 1:1 sessions in C, Java, Python, DSA, and Web Development. 📞 7794822802  --- Call me directly if you're interested in hiring me for your company.</marquee>
         <div className={styles.content}>
-          <marquee> Call me directly for 1:1 sessions in C, Java, Python, DSA, and Web Development. 📞 7794822802  --- Call me directly if you're interested in hiring me for your company.</marquee>
           <motion.div className={styles.profileContainer} variants={itemVariants}>
             <motion.div className={styles.profileImageContainer} variants={itemVariants}>
               <img
