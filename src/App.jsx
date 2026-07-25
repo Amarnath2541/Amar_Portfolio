@@ -27,12 +27,7 @@ function App() {
           />
         ))}
       </div>
-      <div className="top-marquee" aria-label="Announcements">
-        <div className="marquee-track">
-          <span>Call me directly for 1:1 sessions in C, Java, Python, DSA, and Web Development. 📞 7794822802</span>
-          <span>Call me directly if you're interested in hiring me for your company.</span>
-        </div>
-      </div>
+     
       <Navbar />
       <Hero />
       <About />
