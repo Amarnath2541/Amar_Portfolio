@@ -29,8 +29,8 @@ function App() {
       </div>
       <div className="top-marquee" aria-label="Announcements">
         <div className="marquee-track">
-          <span>Open to opportunities • Java Backend Developer • Spring Boot • Microservices • AWS • Kubernetes •</span>
-          <span>Open to opportunities • Java Backend Developer • Spring Boot • Microservices • AWS • Kubernetes •</span>
+          <span>Call Me Directly for 1:1 Sessions on C,Java,Python,DSA and web development [PH:7794822802] </span>
+          <span>Call Me Directly for hiring me to your company</span>
         </div>
       </div>
       <Navbar />
