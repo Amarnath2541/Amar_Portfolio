@@ -27,6 +27,12 @@ function App() {
           />
         ))}
       </div>
+      <div className="top-marquee" aria-label="Announcements">
+        <div className="marquee-track">
+          <span>Open to opportunities • Java Backend Developer • Spring Boot • Microservices • AWS • Kubernetes •</span>
+          <span>Open to opportunities • Java Backend Developer • Spring Boot • Microservices • AWS • Kubernetes •</span>
+        </div>
+      </div>
       <Navbar />
       <Hero />
       <About />
