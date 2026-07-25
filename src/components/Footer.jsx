@@ -152,12 +152,12 @@ const Footer = () => {
               whileTap={{ scale: 0.98 }}
             >
               <FaEnvelope className={styles.contactIcon} />
-              <span>nambiamar1234@gmail.com <br>
-                nambiamar12345@gmail.com
+              <span>nambiamar1234@gmail.com
               </span>
             </motion.a>
             <div className={styles.contactInfo}>
-              <p>📍 Itpl,Whitefield,Bengaluru, India</p>
+               <p> CALL ME : 7794822802 </p>
+              <p>📍 Itpl,Whitefield,Bengaluru, India.</p>
               <p>💼 Open to opportunities</p>
             </div>
           </motion.div>
