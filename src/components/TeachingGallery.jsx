@@ -38,7 +38,7 @@ const TeachingGallery = () => {
     { src: '/images/teach6.jpg' },
     { src: '/images/teach7.jpeg' },
     { src: '/images/teach8.jpeg' },
-    { src: '/images/teach9.jpeg' },
+    { src: '/images/teach9.HEIC' },
     { src: '/images/teach10.jpeg' },
   ];
 
