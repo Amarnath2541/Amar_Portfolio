@@ -30,15 +30,16 @@ const TeachingGallery = () => {
   };
 
   const teachingImages = [
+    { src: '/images/team09.png' },
+    { src: '/images/teach7.jpeg' },
+    { src: '/images/teach8.jpeg' },
     { src: '/images/teach1.jpeg' },
     { src: '/images/teach2.jpeg' },
     { src: '/images/teach3.jpeg' },
     { src: '/images/teach4.jpeg' },
     { src: '/images/teach5.jpg' },
     { src: '/images/teach6.jpg' },
-    { src: '/images/teach7.jpeg' },
-    { src: '/images/teach8.jpeg' },
-    { src: '/images/team09.png' },
+
     
   ];
 
